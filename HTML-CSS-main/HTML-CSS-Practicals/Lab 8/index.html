@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!--
+Student Name: Kartik Shankhadhar
+Student Id: BCS2025398
+Roll Number: 2510303253
+Course: B.Tech CSE (Second Year)
+Subject: HTML and CSS Introduction Lab (BCS352)
+University: Invertis University, Bareilly
+-->
+
+<html>
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+
+    <h1>Sign Up Form</h1>
+
+    <form method="post" action="thanks.html">
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="fullname">
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+
+        <br><br>
+
+        <button type="submit">Sign Up</button>
+
+    </form>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Choices</title>
+    <link rel="stylesheet" href="choices.css">
+</head>
+<body>
+
+    <h1>Course Choices</h1>
+
+    <form>
+
+        <p>Gender:</p>
+
+        <input type="radio" name="gender" value="female">
+        Female
+
+        <input type="radio" name="gender" value="male">
+        Male
+
+        <br><br>
+
+        <label for="course">Choose Course:</label>
+
+        <select id="course" name="course">
+            <option>BCA</option>
+            <option>B.Tech</option>
+        </select>
+
+    </form>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Required Sign Up</title>
+    <link rel="stylesheet" href="signup-required.css">
+</head>
+<body>
+
+    <h1>Sign Up Form</h1>
+
+    <form>
+
+        <label for="name">Full Name:</label>
+
+        <input type="text"
+               id="name"
+               name="fullname"
+               placeholder="Enter your name"
+               required>
+
+        <br><br>
+
+        <label for="email">Email:</label>
+
+        <input type="email"
+               id="email"
+               name="email"
+               placeholder="Enter your email"
+               required>
+
+        <br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+</html>

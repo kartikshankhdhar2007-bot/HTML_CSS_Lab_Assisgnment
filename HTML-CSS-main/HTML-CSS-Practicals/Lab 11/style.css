@@ -1,0 +1,43 @@
+.box1 {
+    width: 200px;
+    height: 40px;
+    background-color: lightblue;
+}
+
+.box2 {
+    width: 50%;
+    height: 40px;
+    background-color: lightgreen;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+:root {
+    --main-color: #1d3557;
+}
+
+h1 {
+    color: var(--main-color);
+}
+
+p {
+    color: var(--main-color);
+}
+:root {
+    --primary-color: #1d3557;
+    --accent-color: #e63946;
+    --heading-size: 2rem;
+    --spacing: 16px;
+}
+
+body {
+    background-color: var(--primary-color);
+    padding: var(--spacing);
+}
+
+h1 {
+    color: var(--accent-color);
+    font-size: var(--heading-size);
+}

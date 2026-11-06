@@ -1,0 +1,38 @@
+<!--
+Student Name: Kartik Shankhadhar
+Student Id: BCS2025398
+Roll Number: 2510303253
+Course: B.Tech CSE (Second Year)
+Subject: HTML and CSS Introduction Lab (BCS352)
+University: Invertis University, Bareilly
+-->
+PUSHING AND CLONING A REPOSITORY
+
+From inside html-lab, create a bare repository beside it:
+
+git init --bare ../html-remote
+
+Connect and push:
+
+git remote add origin ../html-remote
+git remote -v
+git push -u origin main
+
+If your branch is named master instead, use:
+
+git push -u origin master
+
+Go one folder up and clone the repository:
+
+cd ..
+git clone html-remote html-copy
+cd html-copy
+git log --oneline
+
+The cloned repository should contain the same commits.
+
+IMPORTANT:
+- Replace Your Name and you@example.com with your own details.
+- If Git creates the branch named master, use master instead of main.
+- Submit terminal output/screenshots as your instructor requests.
+

@@ -1,0 +1,45 @@
+body {
+    background-color: lightyellow;
+    font-family: Arial;
+}
+
+h1 {
+    color: navy;
+}
+
+ul {
+    color: green;
+    font-size: 18px;
+}
+
+body {
+    background-color: lightblue;
+    font-family: Arial;
+}
+
+h1 {
+    color: darkblue;
+}
+
+ol {
+    font-size: 18px;
+    color: green;
+}
+
+body {
+    background-color: lightyellow;
+    font-family: Arial;
+}
+
+h1 {
+    color: navy;
+}
+
+dt {
+    font-weight: bold;
+    color: blue;
+}
+
+dd {
+    color: green;
+}

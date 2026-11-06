@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    background-color: black;
+    padding: 15px;
+    gap: 25px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    width: 180px;
+    padding: 20px;
+    background-color: lightblue;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.card {
+    width: 180px;
+    padding: 20px;
+    background-color: lightyellow;
+    border: 2px solid black;
+    text-align: center;
+}

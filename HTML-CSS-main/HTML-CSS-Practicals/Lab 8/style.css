@@ -1,0 +1,71 @@
+body {
+    background-color: lightyellow;
+    font-family: Arial;
+}
+
+h1 {
+    color: navy;
+}
+
+form {
+    background-color: lightblue;
+    padding: 20px;
+    width: 300px;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+}
+
+button {
+    background-color: navy;
+    color: white;
+    padding: 10px;
+}
+
+body {
+    background-color: lightblue;
+    font-family: Arial;
+}
+
+h1 {
+    color: darkblue;
+}
+
+form {
+    padding: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+select {
+    padding: 8px;
+}
+
+body {
+    background-color: lightyellow;
+    font-family: Arial;
+}
+
+h1 {
+    color: navy;
+}
+
+form {
+    background-color: lightblue;
+    padding: 20px;
+    width: 350px;
+}
+
+input {
+    padding: 8px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+}

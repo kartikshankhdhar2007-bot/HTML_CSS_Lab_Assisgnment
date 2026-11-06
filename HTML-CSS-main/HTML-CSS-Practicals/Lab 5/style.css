@@ -1,0 +1,51 @@
+body {
+    background-color: lightyellow;
+    font-family: Arial;
+}
+
+h1 {
+    color: navy;
+}
+
+p {
+    color: black;
+    font-size: 18px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+body {
+    background-color: lightblue;
+    font-family: Arial;
+}
+
+h1 {
+    color: darkblue;
+}
+
+p {
+    font-size: 18px;
+    color: black;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+body {
+    background-color: lightyellow;
+    font-family: Arial;
+}
+
+h1 {
+    color: navy;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
